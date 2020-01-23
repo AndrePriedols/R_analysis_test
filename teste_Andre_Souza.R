@@ -70,7 +70,7 @@ head(dadosMensais)
 getwd()
 
 #salvando em teste_final.csv;
-write.csv2(dadosMensais,'/Users/andrepsouza/Desktop/4INTELLIGENCE/dados_mensais_nacionais.csv', row.names = FALSE)
+write.csv(dadosMensais,'/Users/andrepsouza/Desktop/4INTELLIGENCE/dados_mensais_nacionais.csv', row.names = FALSE)
 
 # Parte 1.1:
 # Exercício 1: 
